@@ -30,7 +30,6 @@ public class Polaznik implements Comparable<Polaznik> {
     }
 
     public int hashCode(){
-        //return Objects.hash(getEmail().toLowerCase(), getPrezime().toLowerCase(), getIme().toLowerCase());
         return Objects.hash(getEmail().toLowerCase());
     }
 
